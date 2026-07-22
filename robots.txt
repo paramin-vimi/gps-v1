@@ -1,0 +1,5 @@
+# Staging build — not for indexing.
+# Effective only when this folder is served at a domain root.
+# The noindex meta tag in index.html is the reliable control.
+User-agent: *
+Disallow: /
